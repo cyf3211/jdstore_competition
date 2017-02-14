@@ -16,12 +16,14 @@
             <%= render "common/flashes" %>
           </div>
         </div>
-        <main><div class=" container-fluid">
+  <!--02.14 下面这行去掉class=container 以解决首页轮播无法全屏自适应功能  陈扬帆-->
+        <main><div class="container-fluid">
             <%= yield %>
         </div></main>
-
+  <!--02.14解决footer对齐问题  陈扬帆
+            <div class="row">   -->
           <%= render "common/footer" %>
-
+  <!--      </div>     -->
 
     </body>
 </html>

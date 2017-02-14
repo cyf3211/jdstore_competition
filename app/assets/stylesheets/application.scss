@@ -203,6 +203,7 @@
   position: relative;
   width: 100%;
   //min-height: 300px;
+  //0214class命名冲突： .carousel-inner，导致首页轮播底部自适应时出现黑边，盖度被固定 陈扬帆
 }
 .carousel-control.right {
   right: 0;
@@ -500,7 +501,7 @@ marquee>a, marquee>a:hover{color:#000; text-decoration:none;}
     background-color: #12131e;
   }
 }
-/*导航栏注册登录按钮配色改变，02.14陈扬帆新增*/
+/*导航栏注册登录按钮配色改变，0214陈扬帆新增*/
 .btn-info {
   color: #fff;
   background-color: #0c224f;
@@ -655,6 +656,7 @@ marquee>a, marquee>a:hover{color:#000; text-decoration:none;}
 
 /*固定像素*/
 //设定整个网页居中，且最宽为1024
+//0214更改为不强制固定宽度 陈扬帆
 div.container {
   margin-left:auto;
   margin-right: auto;
@@ -762,7 +764,7 @@ footer{position:absolute;bottom:0;width:120%;height:100px;}
 
 /*----------------------------------功能分割线----------------------------------*/
 
-/*首页轮播图（02.14陈扬帆添加）*/
+/*首页轮播图（0214陈扬帆添加）*/
 .bs-slider{
     overflow: hidden;
     max-height: 700px;
