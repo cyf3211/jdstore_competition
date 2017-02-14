@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 酷跑网 </title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+          <div class="row">
+            <%= render "common/navbar" %>
+            <%= render "common/flashes" %>
+          </div>
+        </div>
+        <main><div class=" container-fluid">
+            <%= yield %>
+        </div></main>
+
+          <%= render "common/footer" %>
+
+
+    </body>
+</html>
