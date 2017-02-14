@@ -409,7 +409,8 @@ marquee>a, marquee>a:hover{color:#000; text-decoration:none;}
 .navbar-default
 {
   z-index:9999;
-    position: relative;
+  position: relative;
+//0214上面两行解决注册登录图标放大功能被轮播图挡住的问题 陈扬帆
   border-radius:0px;
   margin-bottom: 0px;
   border: 0px;
